@@ -1,0 +1,16 @@
+/* CSS Document */
+
+body{
+    background-color: #000000;
+    font-family: "english", Georgia, "Times New Roman", Times, serif;
+    color: #dedede;
+    margin: 0 0 12px 0;
+    box-sizing: border-box;
+    padding-top: 66px;
+}
+
+a{
+    background-color: #900;
+    background-image: linear-gradient(to bottom, #990000, #660000);
+    color: #fff;
+}
