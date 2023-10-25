@@ -1,8 +1,49 @@
 /* CSS Document */
+/*
+Colors:
+Dark Blue - #173440
+Light Blue - #60A699
+Yellow - #F2D230
+Orange - #F28729
+Blood - #DB0101
+
+Fonts:
+Shlop Regular
+font-family: "shlop", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Shlop Shloppy
+font-family: "shlop-shloppy", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Grindel Grove
+font-family: "grindelgrove", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Westsac
+font-family: "westsac", sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+@import url("https://use.typekit.net/pdj4yks.css");
+@import url("https://use.typekit.net/pdj4yks.css");
+@import url("https://use.typekit.net/pdj4yks.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body{
     background-color: #000000;
-    font-family: "english", Georgia, "Times New Roman", Times, serif;
+    font-family: "westsac", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
     color: #dedede;
     margin: 0 0 12px 0;
     box-sizing: border-box;
@@ -13,4 +54,55 @@ a{
     background-color: #900;
     background-image: linear-gradient(to bottom, #990000, #660000);
     color: #fff;
+}
+
+header {
+    min-height: 800px;
+    background-color: #734f2f;
+    background-image: url("../images/girlInForest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+header nav a {
+    color: #173440;
+}
+
+header nav a:hover {
+    color: #DB0101;
+}
+
+header nav a .button {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    font-size: 2em;
+    margin-right: 10vw;
+    margin-top: 10vw;
+}
+
+header h1 {
+    color:#DB0101;
+    font-family: "shlop-shloppy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11vw;
+    text-align: right;
+    padding-right: 10vw;
+    padding-top: 10vw;
+}
+
+header h2 {
+    color:#DB0101;
+    font-family: "shlop-shloppy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw ;
+    margin-top: -75px;
+    text-align: right;
+    padding-right: 10.5vw;
+}
+
+main #container {
+    width: 80%;
+    margin: 0 auto;
 }
